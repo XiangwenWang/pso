@@ -1,4 +1,4 @@
-# pso
+# psoa
 
 An implementation of the Particle Swarm Optimization algorithm
 
@@ -7,18 +7,18 @@ To be added
 
 ## Installation:  
 ```
-pip install pso
+pip install psoa
 ```  
 or
 
 ```
-conda install -c wangxiangwen pso
+conda install -c wangxiangwen psoa
 ```
 
 ## Example Usage:  
 ```python
->>> import pso
->>> s = pso.swarm()
+>>> import psoa
+>>> s = psoa.swarm()
 >>> obj = lambda x: -((x[0] - 10) ** 2 + (x[1] - 25) ** 2)
 >>> s.maximize(obj, dim=2)
 ([10.0, 25.0], -0.0)

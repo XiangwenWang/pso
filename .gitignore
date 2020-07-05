@@ -1,4 +1,4 @@
 build/*
 dist/*
-pso.egg-info/*
+psoa.egg-info/*
 conda_recipes/*
