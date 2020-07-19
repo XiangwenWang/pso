@@ -2,3 +2,5 @@ build/*
 dist/*
 psoa.egg-info/*
 conda_recipes/*
+__pycache__/*
+*.pyc
